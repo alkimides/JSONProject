@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Iñaki",
+        "lenguaje": "Java",
+        "nivel": "B"
+    },
+    {
+        "nombre": "Kevin",
+        "lenguaje": "c++",
+        "nivel": "A"
+    },
+    {
+        "nombre": "Ander",
+        "lenguaje": "c#",
+        "nivel": "A"
+    },
+    {
+        "nombre": "Niko",
+        "lenguaje": "JavaScript",
+        "nivel": "S"
+    },
+    {
+        "nombre": "Vadel",
+        "lenguaje": "python",
+        "nivel": "S"
+    },
+    {
+        "nombre": "Jon",
+        "lenguaje": "php",
+        "nivel": "B"
+    },
+    {
+        "nombre": "Alex",
+        "lenguaje": "HTML",
+        "nivel": "C"
+    }
+]
