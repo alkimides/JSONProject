@@ -17,7 +17,7 @@ function traerDatos(){
 
     //configuramos metodo open
 
-    xhttp.open('GET', 'programadores.json', true);
+    xhttp.open('GET', 'workers.json', true);
 
     //enviamos
 
@@ -42,19 +42,22 @@ function traerDatos(){
             //accedemos a los datos con un bucle for
             for (let item of datos)
             {
-                //de esta manera podemos visualizar solo el nombre de uno en uno, o el lenguaje de la misma forma con item.lenguaje
-                //console.log(item.noombre)
+                //de esta manera podemos visualizar solo el nombre de uno en uno, al igual que cualquier otro dato
+                //console.log(item.FirstName)
 
                 //agregamos informacion por cada ciclo for
                 //comillas especiales para poder mezclar con codigo html
                 res.innerHTML += `
                     <tr>
-                        <td>${item.nombre}</td>
-                        <td>${item.lenguaje}</td>
-                        <td>${item.nivel}</td>
+                        <td>${item.PersonId}</td>
+                        <td>${item.LastName}</td>
+                        <td>${item.FirstName}</td>
+                        <td>${item.DisplayName}</td>
+                        <td>${item.WorkEmail}</td>
+                        <td>${item.Username}</td>
                     </tr>
                 `
-                //con ${} accedemos a las variables
+                //con ${} accedemos a las variables del archivo json de oracle
 
             }
         }
